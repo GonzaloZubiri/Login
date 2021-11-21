@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(./assets/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: rgba(127, 129, 5, 0.5);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    height: 60rem;
+    padding: 9rem 6rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0, .3);
+    text-align: center;
+}
+
+.logo {
+    width: 8rem;
+    margin-top: -3rem;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.up {
+    background-color:rgb(38, 45, 110);
+    padding: 1.2rem;
+    border-radius: 15px;
+    color: rgb(32, 32, 32);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.in {
+    background-color:rgba(76, 152, 165, 0.171);
+    padding: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: rgb(32, 32, 32);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.form_title {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.form_paragraph {
+    font-weight: 300;
+}
+
+.form_link {
+    font-weight: 400;
+    color: #000;
+}
+
+.form_container {
+    margin-top:3.5rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.form_group {
+    position: relative;
+}
+
+.form_input {
+    width: 100%;
+    background: none;
+    color: #000000;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+.form_label {
+    color: rgb(6, 6, 72);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+}
+
+.form_submit {
+    background-color:rgb(38, 45, 110);
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: .5em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form_line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
